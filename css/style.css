@@ -1,0 +1,131 @@
+/* Your styles here */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html{
+    text-align: center;
+    
+}
+
+body{
+    color: #393d41;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.65;
+}
+header{
+    background-color: black;
+    text-align: center;
+    
+}
+header img{
+    display: inline;
+    width: 35%;
+    padding: 30px; 
+}
+section{
+    margin: 50px 0px;
+}
+
+footer{
+    color: #c8e7f0;
+    background-color: #25a2c3;
+    padding: 40px;
+}
+footer i{
+    color: white;
+}
+footer p{
+    font-size: 0.9em;
+}
+address{
+    display: inline;
+
+}
+footer a{
+    color: #c8e7f0;
+}
+footer span{
+    text-decoration: underline;
+}
+p{
+    padding: 20px;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h1,h3,h4{
+    font-family: 'Montserrat', sans-serif;
+    color: #25a2c3;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+
+button{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f04c2f;
+    font-weight: bold;
+    color: white;
+    border: none;
+    font-size: 0.8em;
+    padding: 15px 40px;
+    border-radius: 5px;
+    
+}
+
+.testimonianze{
+    background-color: #e22d0e;
+    color: white;
+    padding: 50px 30px 20px 30px;
+}
+.testimonianze blockquote{
+    font-style: italic;
+    font-size: 0.9em;
+    padding: 25px 0px;
+}
+.testimonianze span{
+    font-size: 1.3em;
+}
+.testimonianze p{
+    font-size: 0.8em;
+    padding-top: 0;
+}
+
+#backgroundsection{
+    background-image: url("/images/banner.jpg");
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0px 0px;
+    background-position: center center;
+    background-size: 100%;
+    
+}
+#backgroundsection h1{
+    font-size: 2.1em;
+    line-height: 1;
+}
+#imgborders{
+    border-radius: 50%;
+    margin:30px;
+    width: 80%;
+    
+}
+div{
+    border: #dee1e3 solid 1px;
+    margin: 25px;
+    padding-bottom: 20px;
+}
+div img{
+    width:100%;
+    padding-bottom: 20px;
+}
+hr{
+    margin-top: 30px;;
+    width: 60%;
+}
